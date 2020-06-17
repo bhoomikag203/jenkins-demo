@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Buliding.....'
-                sh './gradlew check'
+                sh './gradle check'
             }
         }
     }
