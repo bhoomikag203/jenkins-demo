@@ -5,7 +5,7 @@ public class HelloWorldTest {
     @Test
     public void shouldSayHelloWorld() {
         HelloWorld helloWorld = new HelloWorld();
-        Assert.assertEquals(helloWorld.sayHelloWorld(), "Hello World!");
+        Assert.assertEquals(helloWorld.sayHelloWorld(), "Hello Woxld!");
 
     }
 }
