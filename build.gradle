@@ -18,7 +18,5 @@ dependencies {
 
 task runTests(type: Test) {
     useTestNG() {
-        useDefaultListeners = true
-        outputDirectory = file("$projectDir/testngOutput")
     }
 }

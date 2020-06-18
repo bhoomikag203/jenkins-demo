@@ -16,11 +16,6 @@ pipeline {
                 echo 'Testing.....'
                 sh 'gradle runTests'
             }
-            post {
-                success {
-                    step([$class: 'Publisher', reportFilenamePattern: '**/testng-results.xml'])
-                }
-            }
         }
     }
 }
